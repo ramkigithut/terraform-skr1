@@ -5,6 +5,6 @@ resource "aws_vpc" "main" {
 
   tags = {
     name = "test1-vpc"
-    environment = "dev1"
+    environment = "dev"
   }
 }
